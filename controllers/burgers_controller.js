@@ -10,8 +10,6 @@ router.get('/', function(req,res) {
       // res.json(dbBurger);
       res.render("index", {burgers: dbBurger});
     });
-
-    
 });
 
 
