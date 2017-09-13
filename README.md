@@ -1,15 +1,15 @@
 # burger
 
 ## Overview
-Week of 14 Homework Node Express Handlebars - Eat-Da-Burger - burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows MVC design pattern, using Node and MySQL to query and route data, and Handlebars to generate your HTML.
+Week 15 Assignment - Burger 2: The Sequel - Eat-Da-Burger 2 - Sequelized version of the Burger app. 
 
 ## Links
-  * GitHub Repo : https://github.com/Cshah9/burger
-  * ReadMe with Screenshots : https://github.com/Cshah9/burger/blob/master/README.md
-  * HEROKU link : https://floating-castle-35364.herokuapp.com/
+  * GitHub Repo : https://github.com/Cshah9/sequelizedBurger
+  * ReadMe with Screenshots : https://github.com/Cshah9/sequelizedBurger/blob/master/README.md
+  * HEROKU link : 
   * Main code files 
-    * (/veiws/index.handlebars) : https://github.com/Cshah9/burger/blob/master/views/index.handlebars
-    * (/models/burger.js) : https://github.com/Cshah9/burger/blob/master/models/burger.js
+    * (/controllers/burger_controller.js) : https://github.com/Cshah9/sequelizedBurger/blob/master/controllers/burger_controller.js
+    * (/models/burger.js) : https://github.com/Cshah9/burger/blob/sequelizedBurger/models/burger.js
     
      
 
