@@ -1,0 +1,25 @@
+
+<div class="section">
+<h3> Burgers: </h3>
+
+{{#each burgers}}
+	{{#unless this.devoured}}
+		<p> #{{this.id}} - {{this.burger_name}}   <form action="/{{this.id}}?_method=PUT" method="POST">
+          <input type="hidden" name="devour" value="true">
+          <button type="submit">Devour!</button>
+        </form></p>
+	{{/unless}}
+	
+{{/each}}
+
+</div>
+
+
+<div class="right">
+<h3> Devoured: </h3>
+{{#each burgers}}
+	{{#if this.devoured}}
+		<p> #{{this.id}} - {{this.burger_name}}</p>
+	{{/if}}
+{{/each}}
+</div>

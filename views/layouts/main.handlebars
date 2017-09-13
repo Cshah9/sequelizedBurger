@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="/css/burger_style.css" type="text/css" />
+		<title>Eat-Da-Burger</title>
+	</head>
+	<body>
+	<h1 class="float"> Eat-Da-Burger 2 </h1>
+	<h2 > ...Burger Power!</h2>
+
+		
+		<div class="section">
+		<img src="/img/burger.jpg">
+		<form action="/{{this.id}}?_method=POST" method="POST">
+			<label> Burger Name: </label>
+          <input type="input" name="name" value=" ">
+          <button type="submit">Add Burger!</button>
+        </form>
+        </div>
+        {{{ body }}}
+	</body>
+</html>

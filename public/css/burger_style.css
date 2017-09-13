@@ -1,0 +1,25 @@
+.section {
+	float: left;
+	margin: 20px;
+}
+
+.right {
+	float: right;
+	margin: 20px;
+}
+
+img {
+	padding: 10px;
+}
+
+body {
+	color: Green;
+}
+
+button, input {
+	color: red;
+}
+
+.float {
+	float: left;
+}
